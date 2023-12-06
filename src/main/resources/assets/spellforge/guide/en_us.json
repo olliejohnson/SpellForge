@@ -1,0 +1,62 @@
+{
+  "Sealing Space": {
+    "index": 0,
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "Ritual of Sealing"
+      },
+      {
+        "type": "text",
+        "value": "This ritual will seal the player closest to the center of the ritual"
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "spellforge:rituals/sealing"
+      }
+    ]
+  },
+  "Shape: Pork Pulse": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "Shape: Target"
+      },
+      {
+        "type": "text",
+        "value": "This shape will emit a pulse and target all entities in a radius of the caster"
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "spellforge:shapes/target"
+      }
+    ]
+  },
+  "Component: Pork Warrior": {
+    "index": 2,
+    "category": "sorcery",
+    "sections": [
+      {
+        "type": "title",
+        "value": "Component: Sealing"
+      },
+      {
+        "type": "text",
+        "value": "This will seal the targeted entity preventing movement."
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "spell_part",
+        "location": "spellforge:shapes/sealing"
+      }
+    ]
+  }
+}

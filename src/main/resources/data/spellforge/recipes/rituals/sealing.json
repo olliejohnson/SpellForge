@@ -1,0 +1,71 @@
+{
+  "type": "mna:ritual",
+  "tier": 5,
+  "pattern": [
+    [ 0, 0,26, 0, 0, 0,29, 0, 0 ],
+    [ 0, 0, 0, 9,10,11, 0, 0, 0 ],
+    [31, 0, 8, 0, 0, 0,12, 0,32 ],
+    [ 0, 7, 0, 0,20, 0, 0,13, 0 ],
+    [ 0, 6, 0,19,23,21, 0,14, 0 ],
+    [ 0, 5, 0, 0,18, 0, 0,15, 0 ],
+    [28, 0, 4, 0, 0, 0,16, 0,27 ],
+    [ 0, 0, 0, 3, 2, 1, 0, 0, 0 ],
+    [ 0, 0,25, 0, 0, 0,30, 0, 0 ]
+  ],
+  "displayPattern": [
+    [ 0, 0,26, 0, 0, 0,29, 0, 0 ],
+    [ 0, 0, 0, 9,10,11, 0, 0, 0 ],
+    [31, 0, 8, 0, 0, 0,12, 0,32 ],
+    [ 0, 7, 0, 0,20, 0, 0,13, 0 ],
+    [ 0, 6, 0,19,23,21, 0,14, 0 ],
+    [ 0, 5, 0, 0,18, 0, 0,15, 0 ],
+    [28, 0, 4, 0, 0, 0,16, 0,27 ],
+    [ 0, 0, 0, 3, 2, 1, 0, 0, 0 ],
+    [ 0, 0,25, 0, 0, 0,30, 0, 0 ]
+  ],
+  "reagents": [
+    "  C   C  ",
+    "   MMM   ",
+    "C V   V C",
+    " M  L  M ",
+    " M LGL M ",
+    " M  L  M ",
+    "C V   V C",
+    "   MMM   ",
+    "  C   C  "
+          ],
+  "keys": {
+    "C": {
+      "item": "minecraft:chain",
+      "optional": false,
+      "consume": true
+    },
+    "V": {
+      "item": "mna:vinteum_dust",
+      "optional": false,
+      "consume": true
+    },
+    "M": {
+      "item": "mna:chimerite_gem",
+      "optional": false,
+      "consume": true
+    },
+    "L": {
+      "item": "mna:ritual_focus_lesser",
+      "optional": false,
+      "consume": true
+    },
+    "G": {
+      "item": "mna:ritual_focus_greater",
+      "optional": false,
+      "consume": true
+    }
+  },
+  "parameter": {
+    "beamColor": "0x48e022",
+    "innerColor": "0xffffff",
+    "outerColor": "0x2fb4e0",
+    "displayIndexes": false,
+    "connectBeam": true
+  }
+}

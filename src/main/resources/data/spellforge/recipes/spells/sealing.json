@@ -1,0 +1,13 @@
+{
+  "type": "mna:component",
+  "output": "spellforge:sealing",
+  "tier": 5,
+  "items": [
+    "minecraft:chain",
+    "mna:ritual_focus_greater"
+  ],
+  "patterns": [
+    "mna:manaweave_patterns/circle",
+    "mna:manaweave_patterns/square"
+  ]
+}
