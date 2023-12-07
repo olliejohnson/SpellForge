@@ -21,3 +21,12 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
+- task: GitHubRelease@1
+  inputs:
+    gitHubConnection: 'OAuth'
+    repositoryName: 'olliejohnson/SpellForge'
+    action: 'create'
+    target: '$(build.sourceVersion)'
+    tagSource: 'Git tag'
+    tag: '1.0'
+    assetUploadMode: 'replace'
