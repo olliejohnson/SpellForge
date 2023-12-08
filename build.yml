@@ -23,7 +23,7 @@ steps:
     tasks: 'build'
 - task: GitHubRelease@1
   inputs:
-    gitHubConnection: 'OAuth'
+    gitHubConnection: 'PAT'
     repositoryName: 'olliejohnson/SpellForge'
     action: 'create'
     target: '$(build.sourceVersion)'
