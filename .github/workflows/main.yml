@@ -12,8 +12,16 @@ jobs:
       with:
         distribution: temurin
         java-version: 17
-    - name: Execute Gradle Build
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+    - name: Execute Gradle build
       run: ./gradlew build
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: SpellForge-jar
+        path: build/libs/spellforge-io.oliverj.jar
+        if-no-files-found: error
   release:
     name: Release
     runs-on: ubuntu-latest
@@ -24,4 +32,4 @@ jobs:
         env:
           GHR_COMPRESS: xz
           GHR_PATH: build/libs
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
