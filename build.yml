@@ -32,7 +32,3 @@ steps:
     tag: '1.0'
     assetUploadMode: 'replace'
 
-resources:
-  pipelines:
-    - pipeline: 'gitHubConnection'
-
